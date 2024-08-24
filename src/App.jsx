@@ -7,7 +7,7 @@ function App() {
       <img
         src="bg.png"
         alt="Background"
-        className="w-full h-screen fixed top-0 left-0 overflow-hidden absolute -z-10"
+        className="w-full h-screen overflow-hidden fixed top-0 left-0 overflow-hidden absolute -z-10"
       />
       <LandingPage />
     </div>

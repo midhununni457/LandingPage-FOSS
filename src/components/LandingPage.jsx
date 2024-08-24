@@ -2,14 +2,14 @@ import React from "react";
 
 const LandingPage = () => {
   return (
-    <div className="h-screen text-white bg-white/10 backdrop-blur-2xl flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center">
+    <div className="h-screen overflow-hidden text-white bg-white/10 backdrop-blur-2xl flex justify-between max-sm:flex-col max-sm:justify-center max-sm:items-center">
       <img
         src="logo_white.png"
         alt="FOSS of Nature Logo"
-        className="scale-[80%] sm:absolute sm:top-[-2rem] sm:left-[63rem]"
+        className="max-sm:scale-[60%] scale-[80%] sm:absolute mt-[-5rem] sm:top-[2rem] sm:left-[63rem]"
       />
-      <div className="flex flex-col max-sm:items-center max-sm:text-center gap-[1.7rem]  w-10/12 sm:w-[28rem] sm:mx-[2rem] sm:mt-[21rem]">
-        <h1 className="max-sm:text-[3rem] text-[3.5rem]">
+      <div className="flex flex-col max-sm:items-center max-sm:text-center gap-[1.7rem]  w-10/12 sm:w-[28rem] sm:mx-[2rem] mt-[-5rem] sm:mt-[21rem]">
+        <h1 className="max-sm:text-[2.5rem] text-[3.5rem]">
           Innovations For A Better Tomorrow
         </h1>
         <p className="text-[1.1rem]">
