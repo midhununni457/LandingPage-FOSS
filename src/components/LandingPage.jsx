@@ -17,10 +17,10 @@ const LandingPage = () => {
           FOSS community this year
         </p>
         <div className="flex gap-[2rem] max-sm:flex-col">
-          <button className="bg-white font-[500] text-black rounded-[3rem] px-[1.5rem] py-[0.8rem] border-white border-[0.15rem] duration-100 sm:hover:bg-opacity-0 sm:hover:text-white sm:hover:scale-105">
+          <button className="bg-white font-[500] text-black rounded-[3rem] px-[1.5rem] py-[0.8rem] border-white border-[0.15rem] duration-100 sm:hover:bg-opacity-0 sm:hover:text-white hover:scale-105">
             Book Tickets
           </button>
-          <button className="text-white font-[500] border-white border-[0.15rem] duration-100 sm:hover:bg-white sm:hover:text-black rounded-[3rem] px-[1.5rem] py-[0.8rem] sm:hover:scale-105">
+          <button className="text-white font-[500] border-white border-[0.15rem] duration-100 sm:hover:bg-white sm:hover:text-black rounded-[3rem] px-[1.5rem] py-[0.8rem] hover:scale-105">
             Relive FOSS of Nature 2.0
           </button>
         </div>
